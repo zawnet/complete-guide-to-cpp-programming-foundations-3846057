@@ -20,6 +20,9 @@ int main(){
     std::cout << "Enemy ";
     enemy.printPosition();
 
+    GameEntity<float> treasure (12.5f, 7.8f);   //Postion with loats
+    std::cout << "Treasure ";
+    treasure.printPosition();
     std::cout << std::endl << std::endl;
     return 0;
 }

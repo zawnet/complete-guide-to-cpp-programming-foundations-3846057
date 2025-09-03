@@ -8,7 +8,10 @@ int main(){
     int highScores[] = {850, 745, 1220, 990};  // High scores in various game stages
     int* scorePtr = highScores;   // Pointer initialized to the address of the array
 
+
     std::cout << "Initial high score: " << *scorePtr << std::endl;  // Display the first high score using pointer
+    std::cout << "Second high score using pointer: " << *(scorePtr + 1) << std::endl;  // Display the second high score using pointer
+    std::cout << "Third high score using array notation: " << scorePtr[2] << std::endl;  // Display the second high score using pointer
 
     std::cout << std::endl << std::endl;
     return 0;
